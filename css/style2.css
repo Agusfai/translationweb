@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #85bdbf;
+}
+
+.form {
+    background-color: #c2fcf7;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 200px;
+    font-size: 32px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.write {
+    background-color: rgb(202, 218, 233);
+    padding: 8px;
+}
+
+.log {
+    background-color: #88e6d7;
+    padding: 4px;
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+.log2 :hover {
+    background-color: #c2fcf7;
+}
+
+.log1 {
+    justify-content: center;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 96px;
+    font-size: 32px;
+    background-color: #c2fcf7;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.write2 {
+    background-color: rgb(202, 218, 233);
+    padding: 8px;
+    margin-left: 9.5%;
+}
