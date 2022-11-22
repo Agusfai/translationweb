@@ -7,10 +7,13 @@
 
 
 
-body {
+body,
+html {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 
@@ -125,7 +128,6 @@ table {
 .parrafo3 {
     margin-top: 50px;
     font-size: 28px;
-    text-decoration: underline rgb(230, 16, 16);
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
 
@@ -133,6 +135,11 @@ table {
 
 .mundo {
     margin-top: 80px;
+}
+
+.parrafoin {
+    background-image: linear-gradient(to bottom, #e38484, #e7858f, #ea869b, #eb88a8, #eb8bb5);
+    padding: 0px;
 }
 
 
@@ -273,4 +280,96 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
 
+}
+
+
+.main2 {
+    background-image: linear-gradient(to bottom, #42e0cb, #00d1d5, #00c2db, #00b1dc, #219fd6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-contenedor {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    grid-template-areas:
+        "feed1a feed1b"
+        "feed2a feed2b"
+        "feed3a feed3b"
+    ;
+    gap: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed:hover {
+    transform: scale(1.05);
+}
+
+.feed1a {
+    background-image: linear-gradient(to bottom, #eaee9d, #e3e983, #dbe368, #d3de4a, #cad822);
+
+}
+
+
+.feed2a {
+    background-image: linear-gradient(to bottom, #57f98f, #4aec80, #3cde71, #2cd162, #18c453);
+}
+
+
+.feed3a {
+    background-image: linear-gradient(to bottom, #77c2f2, #5eaee7, #469adc, #2f86d1, #1872c4);
+}
+
+
+
+
+.grid-contenedor-2 {
+
+    padding: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    grid-template-areas:
+        "titulo-work carousel"
+    ;
+
+
+}
+
+
+.titulo-work {
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ol,
+ul {
+    padding-left: 0px !important;
 }
