@@ -216,26 +216,22 @@ footer {
 }
 
 .imagenpie {
-    margin-left: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .fondo4 {
+    text-align: center;
     background-image: linear-gradient(to bottom, #42e0cb, #00d1d5, #00c2db, #00b1dc, #219fd6);
     height: 100%;
     background-size: 100%;
 }
 
-.fondo4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-}
+
 
 .fondo4 img {
-    margin: 60px;
+    margin: 0 auto;
     height: 300px;
     width: 500px;
 }
@@ -245,6 +241,8 @@ footer {
     animation-name: slidein;
     animation-duration: 3s;
     animation-delay: 0s;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @keyframes slidein {
@@ -253,11 +251,20 @@ footer {
     }
 
     to {
-        margin-left: 2.9%;
+        margin-left: 0%;
     }
 }
 
-.fondo6 {
+@media screen and (max-width: 500px) {
+    .fondo4 img {
+        height: 300px;
+        width: 350px;
+    }
+}
+
+
+
+.imagenes {
     animation-name: slidein;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -274,6 +281,7 @@ footer {
 
 .imagenes {
     margin-top: 50px;
+    padding-bottom: 50px;
     width: 200;
     height: 200;
     display: flex;
@@ -345,7 +353,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1;
     grid-template-areas:
-        "titulo-work carousel"
+        "titulo-work carousel-custom"
     ;
 
 
@@ -360,6 +368,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .carousel-custom {
@@ -372,4 +381,14 @@ footer {
 ol,
 ul {
     padding-left: 0px !important;
+}
+
+.row {
+    padding: 10px;
+}
+
+
+.main3 {
+    background-image: linear-gradient(to bottom, #42e0cb, #00d1d5, #00c2db, #00b1dc, #219fd6);
+
 }
