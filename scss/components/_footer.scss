@@ -1,0 +1,42 @@
+footer {
+    background-image: linear-gradient(to bottom, #1268aa, #097db5, #2491bd, #43a5c3, #63b8c9);
+    width: 100%;
+    flex: 0 1 auto;
+
+    h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        a {
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+
+        a {
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+
+        a {
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+    }
+}
