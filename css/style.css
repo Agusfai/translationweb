@@ -27,13 +27,15 @@ header {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: left;
+
 }
 
 
 .uno h1 {
+    padding-top: 25px;
+    margin-bottom: 0;
     padding: center;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
-
 }
 
 
@@ -128,23 +130,33 @@ table {
 
 
 .parrafo1 {
-
+    padding: 20px;
     font-size: 32px;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
+    font-weight: 500;
+    margin: 20px;
 }
 
 .parrafo2 {
+    padding: 20px;
     margin-top: 80px;
     font-size: 28px;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
+    font-weight: 500;
+    margin: 20px;
+
 }
 
 .parrafo3 {
+    padding: 20px;
     margin-top: 50px;
     font-size: 28px;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
+    font-weight: 700;
+    margin: 20px;
+
 
 }
 
@@ -163,17 +175,25 @@ table {
 
 
 .parrafo4 {
+    padding: 20px;
     margin-top: 80px;
     font-size: 28px;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
+    font-weight: 500;
+    margin: 20px;
+
 }
 
 .parrafo5 {
+    padding: 20px;
     font-size: 40px;
     margin-top: 80px;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     text-shadow: 0px -1px 25px rgba(0, 0, 0, 0.21);
+    font-weight: 500;
+    margin: 20px;
+
 }
 
 .tabla3 {
@@ -191,6 +211,7 @@ table {
     padding-top: 20px;
     padding-bottom: 20px;
     position: center;
+
 }
 
 
@@ -229,13 +250,18 @@ footer a img {
     width: 50px;
     height: 50px;
     object-fit: cover;
+    padding-bottom: 10px;
 }
 
 footer {
     background-image: linear-gradient(to bottom, #1268aa, #097db5, #2491bd, #43a5c3, #63b8c9);
     width: 100%;
     flex: 0 1 auto;
+    padding-top: 15px;
+    font-weight: 500;
 }
+
+
 
 .comunicate {
     display: flex;
@@ -257,7 +283,9 @@ footer {
     background-size: 100%;
 }
 
-
+.fondo4 p {
+    font-weight: 500;
+}
 
 .fondo4 img {
     margin: 0 auto;
@@ -321,10 +349,18 @@ footer {
 
 
 .main2 {
+    padding-top: 32px;
+    padding-bottom: 12px;
     background-image: linear-gradient(to bottom, #42e0cb, #00d1d5, #00c2db, #00b1dc, #219fd6);
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.main2 p {
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
 }
 
 .grid-contenedor {
@@ -421,4 +457,8 @@ ul {
 .main3 {
     background-image: linear-gradient(to bottom, #42e0cb, #00d1d5, #00c2db, #00b1dc, #219fd6);
 
+}
+
+.main3 p {
+    font-weight: 500;
 }
